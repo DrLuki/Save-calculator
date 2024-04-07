@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("background.jpg");
+    
+    height: 100vh;
+    width: 100vw;
+  
+}
+.box{
+    background: rgb(44, 44, 44,0.8);
+    color: white;
+    padding: 50px 30px;
+    border-radius: 30px;
+
+}
+.form{
+    margin: 20px 0;
+}
+input, select{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+#btn{
+    display: block;
+   margin: 30px auto;
+   padding: 5px 10px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: rgb(15, 15, 15);
+   color: white;
+   cursor: pointer;
+}
+#btn:active{
+    background: rgb(49, 49, 49);
+}
+
+#results{
+    line-height: 30px;
+}

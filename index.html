@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zoltan Lukacs"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Save calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Save calculator</h1>
+
+
+            <div class="form">
+            <label for="">Your weekly savings(Pound): </label><br/>
+            <input type="number" id="savingsInput">
+        </div>
+        <div class="form">
+            <label for="">How long have you been saving?</label><br/>
+            <select name="time" id="time">
+            
+                <option value="none">Please select!</option>
+                <option value="half">Half year</option>
+                
+                <option value="one">One year</option>
+                <option value="three">Three years</option>
+                <option value="five">Five years</option>
+              </select>
+            </div>
+
+              <div>
+                <input type="radio" id="bicycle" name="savingsCel" value="10000"
+                       checked>
+                <label for="bicycle">Bicycle - 10 000 Pounds</label>
+              </div>
+          
+              <div>
+                <input type="radio" id="phone" name="savingsCel" value="8000">
+                <label for="phone">Phone - 8000 Pounds</label>
+              </div>
+          
+              <div>
+                <input type="radio" id="gameconsole" name="savingsCel" value="500">
+                <label for="gameconsole">Game Console - 500 Pounds</label>
+              </div>
+
+
+              <button id="btn">Calculate</button>
+
+              <div id="results">
+                <p id="osszsavings"></p>
+                <p ><strong id="vanElegPenz"></strong></p>
+              </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
