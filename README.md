@@ -1,6 +1,10 @@
 # Save-calculator
 Save calculator is a web-based saving calculator application built using HTML, CSS, and JavaScript. It allows users to to check if there is enough money for the product.
 
+# Live
+
+Live page : https://drluki.github.io/Save-calculator/
+
 # Technologies Used
 - Html
 - Css
